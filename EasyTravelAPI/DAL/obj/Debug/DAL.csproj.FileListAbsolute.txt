@@ -1,0 +1,10 @@
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\bin\Debug\DAL.dll.config
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\bin\Debug\DAL.dll
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\bin\Debug\DAL.pdb
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\obj\Debug\DAL.dll
+C:\Users\Sezan\source\repos\EasyTravelAPI\DAL\obj\Debug\DAL.pdb

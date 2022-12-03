@@ -1,0 +1,14 @@
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\BLL.dll
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\BLL.pdb
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\DAL.dll
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\DAL.pdb
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\DAL.dll.config
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\obj\Debug\BLL.dll
+C:\Users\Sezan\source\repos\EasyTravelAPI\BLL\obj\Debug\BLL.pdb

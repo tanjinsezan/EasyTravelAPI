@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="HotelBooking">
+    <Key>
+      <PropertyRef Name="TouristID" />
+    </Key>
+    <Property Name="TouristID" Type="int" Nullable="false" />
+    <Property Name="TouristName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TouristPhone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="HotelName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Place" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="Offer" Type="varchar" MaxLength="50" />
+    <Property Name="ExtraInfo" Type="varchar" MaxLength="50" />
+    <Property Name="No_of_Days" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Inq">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Question" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Answer" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Topic" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Details" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tokens">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Userid" Type="int" Nullable="false" />
+    <Property Name="Tokenkey" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreatedAt" Type="datetime" Nullable="false" />
+    <Property Name="ExpiredAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="VehicleBooking">
+    <Key>
+      <PropertyRef Name="TouristID" />
+    </Key>
+    <Property Name="TouristID" Type="int" Nullable="false" />
+    <Property Name="TouristName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TouristPhone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="VehicleID" Type="int" Nullable="false" />
+    <Property Name="VehicleName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StartingPoint" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FinishingPoint" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+    <Property Name="Offer" Type="varchar" MaxLength="50" />
+    <Property Name="ExtraInfo" Type="varchar" MaxLength="50" />
+    <Property Name="No_of_Seat" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="HotelBooking" EntityType="Self.HotelBooking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inq" EntityType="Self.Inq" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Report" EntityType="Self.Report" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tokens" EntityType="Self.Tokens" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VehicleBooking" EntityType="Self.VehicleBooking" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
